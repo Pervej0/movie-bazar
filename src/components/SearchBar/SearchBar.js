@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import useMovies from "../../Hooks/useMovies";
 import MainContents from "../MainContents/MainContents";
 
 const SearchBar = () => {

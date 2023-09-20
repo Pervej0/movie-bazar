@@ -25,10 +25,8 @@ const SingleMovie = () => {
       .catch((err) => console.error("error:" + err));
   }, []);
 
-  console.log(movieData);
-
   return (
-    <>
+    <div data-testid="parent">
       <Navbar background="bg-white" textColor="text-blue-500" />
       <div className="container">
         <div className="flex justify-end my-4">
@@ -76,7 +74,7 @@ const SingleMovie = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
